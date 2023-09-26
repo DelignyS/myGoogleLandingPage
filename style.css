@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  justify-content: end;
+  margin: 0.2em 2em 0.2em 0.2em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 97vh;
+}
+.gmail {
+  color: black;
+  text-decoration: none;
+  margin-right: 0.6em;
+  font-size: 12.5px;
+  font-family: bold, "Roboto", Arial, sans-serif;
+}
+.gmail:hover {
+  text-decoration: underline;
+}
+.img {
+  color: black;
+  text-decoration: none;
+  font-size: 12.5px;
+  font-family: bold, "Roboto", Arial, sans-serif;
+}
+.img:hover {
+  text-decoration: underline;
+}
+i {
+  margin-left: 1em;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+i:hover {
+  color: #536c92;
+  transform: scale(1.3);
+  box-shadow: 0.2em;
+  
+}
+
+.buttons {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  border-radius: 50px;
+  border-color: black;
+  border:1.2px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+  min-width: 450px;
+  max-width: 450px;
+  min-height: 35px;
+  }
+  .form > img {
+    width: 2em;
+    height: 2em;
+  }
+  .mic .lens {
+    display: flex;
+    align-content: end;
+  }
+ form {
+  display: flex;
+  border: none;
+  padding: 0;
+  outline: none;
+  
+ }
+  input {
+    border: none;
+    text-decoration: none;
+    width: 340px;
+  }
+
+
+.logo {
+  margin: 9.6rem 4rem 4rem 4rem;
+
+  
+}
+.link {
+  display: grid;
+  
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  gap: 10px;
+
+}
+.link_second {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 15px;
+  margin-left: 110px;
+  gap: 10px;
+}
+
+.link > div {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 100px;
+  min-height: 70px;
+  cursor: pointer;
+  background-color: #94c3c7;
+}
+.link_second div{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 100px;
+  min-height: 68px;
+  cursor: pointer;
+  background-color: #94c3c7;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 6em;
+  padding-right: 2em;
+  }
+
+  footer button {
+    display: flex;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: -10px 0px 20px  rgba(193, 28, 28);
+  }
+  footer button:hover {
+    cursor: pointer;
+    box-shadow: -10px 0px 20px rgba(0, 255, 0, 0.7);
+  }
+
+  footer button img {
+    padding: 12px auto;
+
+  }
